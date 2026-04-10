@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For My Sakudiii ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- 🎬 INTRO -->
+<div class="intro" onclick="startExperience()">
+  <h1>Tap to Enter My Heart ❤️</h1>
+</div>
+
+<!-- 🎶 MUSIC -->
+<audio id="music" loop>
+  <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73467.mp3" type="audio/mp3">
+</audio>
+
+<div class="main hidden">
+
+<!-- 🌙 HERO -->
+<section class="hero">
+  <h1>Sakudiii 🩷🫀</h1>
+  <p class="typing"></p>
+</section>
+
+<!-- ⏳ LOVE COUNTER -->
+<section class="counter">
+  <h2>Our Time Together ⏳🩷</h2>
+
+  <div class="time-box">
+    <h3>Since We Started Talking 💬</h3>
+    <p id="sinceMeet"></p>
+  </div>
+
+  <div class="time-box">
+    <h3>Since I Proposed 💍</h3>
+    <p id="sinceLove"></p>
+  </div>
+</section>
+
+<!-- 💌 LOVE NOTE -->
+<section class="love-note">
+  <p>
+    You’re not just someone I love…  
+    you’re the reason I believe in love 🫂💖  
+    <br><br>
+    In every lifetime… I’ll find you again ♾️❤️  
+  </p>
+</section>
+
+<!-- 📖 TIMELINE -->
+<section class="timeline">
+  <div class="moment">
+    <h2>The Beginning ✨</h2>
+    <p>The day I met you… my world changed forever 💓</p>
+  </div>
+
+  <div class="moment">
+    <h2>Our Chaos 😂❤️</h2>
+    <p>From stupid jokes to deep talks… everything became special 🫶</p>
+  </div>
+
+  <div class="moment">
+    <h2>Us 🫂</h2>
+    <p>Not perfect… but perfect for each other 💖</p>
+  </div>
+</section>
+
+<!-- 📸 GALLERY -->
+<section class="gallery">
+  <div class="card"><img src="https://drive.google.com/file/d/1hSMpri2_lQFB3RFTAm_3_AD3F7vJUyU_/view?usp=sharing"></div>
+  <div class="card"><img src="https://drive.google.com/file/d/1F6WRCHrMmyga7zELIg7tV8VyonYtd53G/view?usp=sharing"></div>
+  <div class="card"><img src="https://drive.google.com/file/d/1btkIe3JkhkBNaPEJTPzwCYP6drDllIGx/view?usp=sharing"></div>
+  <div class="card"><img src="https://drive.google.com/file/d/10Hhq2fQOwlendEIQtNjFXs13NWMTLudd/view?usp=sharing"></div>
+  <div class="card"><img src="YOUR_Ihttps://drive.google.com/file/d/11CtDsL6xRoYFxxk0cmkj8c6_QRxegpIG/view?usp=sharingMAGE_URL_5"></div>
+</section>
+
+<!-- 💍 PROPOSAL -->
+<section class="proposal">
+  <h2>Will You Be Mine Forever? 💍🥺</h2>
+  <button onclick="acceptLove()">Yes 😚❤️</button>
+  <button onclick="moveButton(this)">No 😏</button>
+</section>
+
+<!-- 🔒 SECRET -->
+<div class="secret" onclick="revealSecret()">🔒 Tap me</div>
+<div class="hidden-message">
+  You are my safest place 🫂🩷  
+  I love you more than words can ever express ❤️
+</div>
+
+</div>
+
+<canvas id="hearts"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>

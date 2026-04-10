@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: black;
+  color: white;
+  overflow-x: hidden;
+}
+
+.intro {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.hidden { display: none; }
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, #ff4d6d, #000);
+}
+
+.hero h1 {
+  font-family: 'Great Vibes';
+  font-size: 4rem;
+}
+
+/* COUNTER */
+.counter {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.time-box {
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+  max-width: 400px;
+  background: rgba(255,192,203,0.1);
+}
+
+/* TIMELINE */
+.timeline { padding: 50px; }
+
+.moment {
+  margin: 40px 0;
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 1s;
+}
+
+.moment.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* GALLERY */
+.gallery {
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+  overflow-x: auto;
+}
+
+.card img {
+  width: 250px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+.card img:hover {
+  transform: scale(1.2);
+}
+
+/* PROPOSAL */
+.proposal {
+  text-align: center;
+  padding: 100px;
+}
+
+button {
+  margin: 10px;
+  padding: 12px 25px;
+  border-radius: 20px;
+  border: none;
+  background: pink;
+  cursor: pointer;
+}
+
+/* SECRET */
+.secret {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.hidden-message {
+  display: none;
+  text-align: center;
+}
